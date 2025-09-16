@@ -33,3 +33,8 @@ window.onscroll = (_) => {
     }
   }
 };
+let ul = document.querySelector("ul")
+document.querySelector(".burger-icon").addEventListener("click",function(){ 
+this.classList.toggle("active")
+ul.classList.toggle("Res")
+})
